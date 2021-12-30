@@ -89,8 +89,8 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
         <h1>Diff Coverage</h1>
         <p>Diff: origin/main...HEAD, staged and unstaged changes</p>
         <ul>
-            <li><b>Total</b>: 13 lines</li>
-            <li><b>Missing</b>: 13 lines</li>
+            <li><b>Total</b>: 4 lines</li>
+            <li><b>Missing</b>: 4 lines</li>
             <li><b>Coverage</b>: 0%</li>
         </ul>
         <table border="1">
@@ -100,22 +100,15 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
                 <th>Missing Lines</th>
             </tr>
             <tr>
-                <td>src/main/java/com/example/demo/MainHome/Add.java</td>
+                <td>src/main/java/com/example/demo/MainHome/Mul.java</td>
                 <td>0.0%</td>
-                <td>4-9,12</td>
-            </tr>
-            <tr>
-                <td>src/main/java/com/example/demo/MainHome/MainTest.java</td>
-                <td>0.0%</td>
-                <td>3,5-9</td>
+                <td>7-9,12</td>
             </tr>
         </table>
         <div class="src-snippet">
-            <div class="src-name">src/main/java/com/example/demo/MainHome/Add.java</div>
+            <div class="src-name">src/main/java/com/example/demo/MainHome/Mul.java</div>
             <div class="snippets">
-            <table class="snippettable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
+            <table class="snippettable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 3</span>
 <span class="normal"> 4</span>
 <span class="normal"> 5</span>
 <span class="normal"> 6</span>
@@ -126,46 +119,18 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="normal">11</span>
 <span class="normal">12</span>
 <span class="normal">13</span>
-<span class="normal">14</span></pre></div></td><td class="code"><div class="snippet"><pre><span></span><a id="src/main/java/com/example/demo/MainHome/Add.java-1" name="src/main/java/com/example/demo/MainHome/Add.java-1"></a><span class="kn">package</span> <span class="nn">com.example.demo.MainHome</span><span class="p">;</span>
-<a id="src/main/java/com/example/demo/MainHome/Add.java-2" name="src/main/java/com/example/demo/MainHome/Add.java-2"></a>
-<a id="src/main/java/com/example/demo/MainHome/Add.java-3" name="src/main/java/com/example/demo/MainHome/Add.java-3"></a><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Add</span> <span class="p">{</span>
-<a id="src/main/java/com/example/demo/MainHome/Add.java-4" name="src/main/java/com/example/demo/MainHome/Add.java-4"></a><span class="hll">    <span class="kd">public</span> <span class="kt">int</span> <span class="n">num1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span><a id="src/main/java/com/example/demo/MainHome/Add.java-5" name="src/main/java/com/example/demo/MainHome/Add.java-5"></a><span class="hll">    <span class="kd">public</span> <span class="kt">int</span> <span class="n">num2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span><a id="src/main/java/com/example/demo/MainHome/Add.java-6" name="src/main/java/com/example/demo/MainHome/Add.java-6"></a><span class="hll">    <span class="kd">public</span> <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span><a id="src/main/java/com/example/demo/MainHome/Add.java-7" name="src/main/java/com/example/demo/MainHome/Add.java-7"></a><span class="hll">    <span class="kd">public</span> <span class="nf">Add</span><span class="p">(</span><span class="kt">int</span> <span class="n">num1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">num2</span><span class="p">){</span>
-</span><a id="src/main/java/com/example/demo/MainHome/Add.java-8" name="src/main/java/com/example/demo/MainHome/Add.java-8"></a><span class="hll">        <span class="n">result</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span><span class="p">;</span>
-</span><a id="src/main/java/com/example/demo/MainHome/Add.java-9" name="src/main/java/com/example/demo/MainHome/Add.java-9"></a><span class="hll">    <span class="p">}</span>
-</span><a id="src/main/java/com/example/demo/MainHome/Add.java-10" name="src/main/java/com/example/demo/MainHome/Add.java-10"></a>
-<a id="src/main/java/com/example/demo/MainHome/Add.java-11" name="src/main/java/com/example/demo/MainHome/Add.java-11"></a>    <span class="kd">public</span> <span class="n">Integer</span> <span class="nf">getResult</span><span class="p">(){</span>
-<a id="src/main/java/com/example/demo/MainHome/Add.java-12" name="src/main/java/com/example/demo/MainHome/Add.java-12"></a><span class="hll">        <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
-</span><a id="src/main/java/com/example/demo/MainHome/Add.java-13" name="src/main/java/com/example/demo/MainHome/Add.java-13"></a>    <span class="p">}</span>
-<a id="src/main/java/com/example/demo/MainHome/Add.java-14" name="src/main/java/com/example/demo/MainHome/Add.java-14"></a><span class="p">}</span>
-</pre></div>
-</td></tr></table>
-            </div>
-        </div>
-        <div class="src-snippet">
-            <div class="src-name">src/main/java/com/example/demo/MainHome/MainTest.java</div>
-            <div class="snippets">
-            <table class="snippettable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span></pre></div></td><td class="code"><div class="snippet"><pre><span></span><a id="src/main/java/com/example/demo/MainHome/MainTest.java-1" name="src/main/java/com/example/demo/MainHome/MainTest.java-1"></a><span class="kn">package</span> <span class="nn">com.example.demo.MainHome</span><span class="p">;</span>
-<a id="src/main/java/com/example/demo/MainHome/MainTest.java-2" name="src/main/java/com/example/demo/MainHome/MainTest.java-2"></a>
-<a id="src/main/java/com/example/demo/MainHome/MainTest.java-3" name="src/main/java/com/example/demo/MainHome/MainTest.java-3"></a><span class="hll"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainTest</span> <span class="p">{</span>
-</span><a id="src/main/java/com/example/demo/MainHome/MainTest.java-4" name="src/main/java/com/example/demo/MainHome/MainTest.java-4"></a>    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">){</span>
-<a id="src/main/java/com/example/demo/MainHome/MainTest.java-5" name="src/main/java/com/example/demo/MainHome/MainTest.java-5"></a><span class="hll">        <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Hello WORLD&quot;</span><span class="p">);</span>
-</span><a id="src/main/java/com/example/demo/MainHome/MainTest.java-6" name="src/main/java/com/example/demo/MainHome/MainTest.java-6"></a><span class="hll">        <span class="n">Add</span> <span class="n">cal</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Add</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">8</span><span class="p">);</span>
-</span><a id="src/main/java/com/example/demo/MainHome/MainTest.java-7" name="src/main/java/com/example/demo/MainHome/MainTest.java-7"></a><span class="hll">        <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">cal</span><span class="p">.</span><span class="na">getResult</span><span class="p">());</span>
-</span><a id="src/main/java/com/example/demo/MainHome/MainTest.java-8" name="src/main/java/com/example/demo/MainHome/MainTest.java-8"></a><span class="hll">        <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="mi">19</span><span class="p">);</span>
-</span><a id="src/main/java/com/example/demo/MainHome/MainTest.java-9" name="src/main/java/com/example/demo/MainHome/MainTest.java-9"></a><span class="hll">    <span class="p">}</span>
-</span><a id="src/main/java/com/example/demo/MainHome/MainTest.java-10" name="src/main/java/com/example/demo/MainHome/MainTest.java-10"></a><span class="p">}</span>
+<span class="normal">14</span></pre></div></td><td class="code"><div class="snippet"><pre><span></span><a id="src/main/java/com/example/demo/MainHome/Mul.java-3" name="src/main/java/com/example/demo/MainHome/Mul.java-3"></a><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Mul</span> <span class="p">{</span>
+<a id="src/main/java/com/example/demo/MainHome/Mul.java-4" name="src/main/java/com/example/demo/MainHome/Mul.java-4"></a>    <span class="kd">private</span> <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+<a id="src/main/java/com/example/demo/MainHome/Mul.java-5" name="src/main/java/com/example/demo/MainHome/Mul.java-5"></a>    <span class="kd">private</span> <span class="kt">int</span> <span class="n">b</span><span class="p">;</span>
+<a id="src/main/java/com/example/demo/MainHome/Mul.java-6" name="src/main/java/com/example/demo/MainHome/Mul.java-6"></a>    <span class="kd">private</span> <span class="kt">int</span> <span class="n">result</span><span class="p">;</span>
+<a id="src/main/java/com/example/demo/MainHome/Mul.java-7" name="src/main/java/com/example/demo/MainHome/Mul.java-7"></a><span class="hll">    <span class="kd">public</span> <span class="nf">Mul</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">){</span>
+</span><a id="src/main/java/com/example/demo/MainHome/Mul.java-8" name="src/main/java/com/example/demo/MainHome/Mul.java-8"></a><span class="hll">        <span class="n">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span><span class="n">b</span><span class="p">;</span>
+</span><a id="src/main/java/com/example/demo/MainHome/Mul.java-9" name="src/main/java/com/example/demo/MainHome/Mul.java-9"></a><span class="hll">    <span class="p">}</span>
+</span><a id="src/main/java/com/example/demo/MainHome/Mul.java-10" name="src/main/java/com/example/demo/MainHome/Mul.java-10"></a>
+<a id="src/main/java/com/example/demo/MainHome/Mul.java-11" name="src/main/java/com/example/demo/MainHome/Mul.java-11"></a>    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">getResult</span><span class="p">(){</span>
+<a id="src/main/java/com/example/demo/MainHome/Mul.java-12" name="src/main/java/com/example/demo/MainHome/Mul.java-12"></a><span class="hll">        <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+</span><a id="src/main/java/com/example/demo/MainHome/Mul.java-13" name="src/main/java/com/example/demo/MainHome/Mul.java-13"></a>    <span class="p">}</span>
+<a id="src/main/java/com/example/demo/MainHome/Mul.java-14" name="src/main/java/com/example/demo/MainHome/Mul.java-14"></a><span class="p">}</span>
 </pre></div>
 </td></tr></table>
             </div>
