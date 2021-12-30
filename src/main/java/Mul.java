@@ -1,5 +1,3 @@
-package com.example.demo.MainHome;
-
 public class Mul {
     private int a;
     private int b;
@@ -8,5 +6,7 @@ public class Mul {
         result = a +b;
     }
 
-
+    public int getResult(){
+        return result;
+    }
 }

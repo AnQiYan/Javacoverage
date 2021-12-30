@@ -1,5 +1,3 @@
-package com.example.demo.MainHome;
-
 public class Add {
     public int num1 = 0;
     public int num2 = 0;
