@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.0" branch-rate="1.0" lines-covered="0" lines-valid="20" branches-covered="0" branches-valid="0" complexity="1.0" version="1.9.4.1" timestamp="1640856855492">
+<coverage line-rate="0.0" branch-rate="1.0" lines-covered="0" lines-valid="48" branches-covered="0" branches-valid="0" complexity="1.0" version="1.9.4.1" timestamp="1640858453484">
 	<sources>
 		<source>D:/MavenCoverage/src/main/java</source>
 		<source>--source</source>
@@ -9,7 +9,41 @@
 	<packages>
 		<package name="" line-rate="0.0" branch-rate="1.0" complexity="1.0">
 			<classes>
-				<class name="Main" filename="Main.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+				<class name="Add" filename="Add.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(II)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="2" hits="0" branch="false"/>
+								<line number="3" hits="0" branch="false"/>
+								<line number="4" hits="0" branch="false"/>
+								<line number="5" hits="0" branch="false"/>
+								<line number="6" hits="0" branch="false"/>
+								<line number="7" hits="0" branch="false"/>
+								<line number="8" hits="0" branch="false"/>
+								<line number="9" hits="0" branch="false"/>
+								<line number="10" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getResult" signature="()Ljava/lang/Integer;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="13" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="2" hits="0" branch="false"/>
+						<line number="3" hits="0" branch="false"/>
+						<line number="4" hits="0" branch="false"/>
+						<line number="5" hits="0" branch="false"/>
+						<line number="6" hits="0" branch="false"/>
+						<line number="7" hits="0" branch="false"/>
+						<line number="8" hits="0" branch="false"/>
+						<line number="9" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+						<line number="13" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="Main" filename="Main.java" line-rate="0.0" branch-rate="1.0" complexity="0.0">
 					<methods>
 						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
 							<lines>
@@ -29,11 +63,75 @@
 						<line number="5" hits="0" branch="false"/>
 					</lines>
 				</class>
+				<class name="MainTest" filename="MainTest.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="1" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="3" hits="0" branch="false"/>
+								<line number="4" hits="0" branch="false"/>
+								<line number="5" hits="0" branch="false"/>
+								<line number="6" hits="0" branch="false"/>
+								<line number="7" hits="0" branch="false"/>
+								<line number="8" hits="0" branch="false"/>
+								<line number="9" hits="0" branch="false"/>
+								<line number="10" hits="0" branch="false"/>
+								<line number="11" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="1" hits="0" branch="false"/>
+						<line number="3" hits="0" branch="false"/>
+						<line number="4" hits="0" branch="false"/>
+						<line number="5" hits="0" branch="false"/>
+						<line number="6" hits="0" branch="false"/>
+						<line number="7" hits="0" branch="false"/>
+						<line number="8" hits="0" branch="false"/>
+						<line number="9" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="Mul" filename="Mul.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(II)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="5" hits="0" branch="false"/>
+								<line number="6" hits="0" branch="false"/>
+								<line number="7" hits="0" branch="false"/>
+								<line number="8" hits="0" branch="false"/>
+								<line number="9" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getResult" signature="()I" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="12" hits="0" branch="false"/>
+								<line number="13" hits="0" branch="false"/>
+								<line number="14" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="5" hits="0" branch="false"/>
+						<line number="6" hits="0" branch="false"/>
+						<line number="7" hits="0" branch="false"/>
+						<line number="8" hits="0" branch="false"/>
+						<line number="9" hits="0" branch="false"/>
+						<line number="12" hits="0" branch="false"/>
+						<line number="13" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+					</lines>
+				</class>
 			</classes>
 		</package>
-		<package name="com.example.demo.MainHome" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+		<package name="com.example.demo.MainHome" line-rate="0.0" branch-rate="1.0" complexity="0.0">
 			<classes>
-				<class name="com.example.demo.MainHome.Add" filename="com/example/demo/MainHome/Add.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+				<class name="com.example.demo.MainHome.Add" filename="com/example/demo/MainHome/Add.java" line-rate="0.0" branch-rate="1.0" complexity="0.0">
 					<methods>
 						<method name="&lt;init&gt;" signature="(II)V" line-rate="0.0" branch-rate="1.0">
 							<lines>
@@ -61,7 +159,7 @@
 						<line number="12" hits="0" branch="false"/>
 					</lines>
 				</class>
-				<class name="com.example.demo.MainHome.MainTest" filename="com/example/demo/MainHome/MainTest.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+				<class name="com.example.demo.MainHome.MainTest" filename="com/example/demo/MainHome/MainTest.java" line-rate="0.0" branch-rate="1.0" complexity="0.0">
 					<methods>
 						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
 							<lines>
@@ -87,7 +185,7 @@
 						<line number="9" hits="0" branch="false"/>
 					</lines>
 				</class>
-				<class name="com.example.demo.MainHome.Mul" filename="com/example/demo/MainHome/Mul.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+				<class name="com.example.demo.MainHome.Mul" filename="com/example/demo/MainHome/Mul.java" line-rate="0.0" branch-rate="1.0" complexity="0.0">
 					<methods>
 						<method name="&lt;init&gt;" signature="(II)V" line-rate="0.0" branch-rate="1.0">
 							<lines>

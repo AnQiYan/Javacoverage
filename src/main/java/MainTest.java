@@ -4,5 +4,9 @@ public class MainTest {
         Add cal = new Add(3, 8);
         System.out.println(cal.getResult());
         System.out.println(19);
+        System.out.println(19);
+        System.out.println(19);
+        System.out.println(19);
+        System.out.println(19);
     }
 }
